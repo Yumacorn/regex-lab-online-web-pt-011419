@@ -27,6 +27,7 @@ end
 def first_word_capitalized_and_ends_with_punctuation?(text)
   a = text.scan(/^[A-Z].\W$/m)
   binding.pry
+  a
 end
 
 def valid_phone_number?(phone)
